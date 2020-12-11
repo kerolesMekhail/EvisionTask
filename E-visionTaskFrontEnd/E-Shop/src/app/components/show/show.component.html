@@ -1,0 +1,43 @@
+<div class="row" style="margin:20px">
+    <div class="col-md-4">
+             <input  type="text" class="form-control" [(ngModel)]="search" placeholder="Name">
+        
+    </div>
+    <div class="col-md-4">
+        <input  type="date" class="form-control" [(ngModel)]="searchdate" placeholder="Date">
+   
+</div>
+
+    
+    <div class="col-md-4">
+            <button (click)="searchform()" class="btn btn-outline-success">Search</button>
+    </div>
+</div>
+
+<div class="row" >
+    <div class="col-md-3" *ngFor="let product of all_product" style="margin: 20px; margin-left: 40px;" >
+        <div class="card" style="width:400px"  >
+            <img class="card-img-top col-md-4" [src]="pathurl+product.photo" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title"> {{product.name}}</h4>
+                <h4 class="card-title"> Price ${{product.price}}</h4>
+                <div class="col-lg-12 col-md-6">
+                    <button  class="btn btn-primary">
+                        <a [href]="'/detailes/' + product.id"  class="btn btn-Info">
+                            <i class="flaticon-user"></i>   detailes
+                        </a>
+                    </button>
+                    <button (click)="deletProduct(product.id)" class="btn btn-Access"><i class="flaticon-user"></i>Delete
+                        <span></span>
+                        
+                    </button>
+                    <button  class="btn btn-primary" >
+                        <a [href]="'/edit/' + product.id"  class="btn btn-Info">
+                            <i class="flaticon-user"></i>   Edit
+                        </a>
+                    </button>
+                </div>            
+            </div>
+        </div>
+    </div>
+  </div>

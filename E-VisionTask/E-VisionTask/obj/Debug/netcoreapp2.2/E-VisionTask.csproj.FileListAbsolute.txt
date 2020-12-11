@@ -1,0 +1,14 @@
+F:\E-VisionTask\E-VisionTask\bin\Debug\netcoreapp2.2\E-VisionTask.deps.json
+F:\E-VisionTask\E-VisionTask\bin\Debug\netcoreapp2.2\E-VisionTask.runtimeconfig.json
+F:\E-VisionTask\E-VisionTask\bin\Debug\netcoreapp2.2\E-VisionTask.runtimeconfig.dev.json
+F:\E-VisionTask\E-VisionTask\bin\Debug\netcoreapp2.2\E-VisionTask.dll
+F:\E-VisionTask\E-VisionTask\bin\Debug\netcoreapp2.2\E-VisionTask.pdb
+F:\E-VisionTask\E-VisionTask\obj\Debug\netcoreapp2.2\E-VisionTask.csproj.CoreCompileInputs.cache
+F:\E-VisionTask\E-VisionTask\obj\Debug\netcoreapp2.2\E-VisionTask.RazorAssemblyInfo.cache
+F:\E-VisionTask\E-VisionTask\obj\Debug\netcoreapp2.2\E-VisionTask.RazorAssemblyInfo.cs
+F:\E-VisionTask\E-VisionTask\obj\Debug\netcoreapp2.2\E-VisionTask.AssemblyInfoInputs.cache
+F:\E-VisionTask\E-VisionTask\obj\Debug\netcoreapp2.2\E-VisionTask.AssemblyInfo.cs
+F:\E-VisionTask\E-VisionTask\obj\Debug\netcoreapp2.2\E-VisionTask.RazorTargetAssemblyInfo.cache
+F:\E-VisionTask\E-VisionTask\obj\Debug\netcoreapp2.2\E-VisionTask.dll
+F:\E-VisionTask\E-VisionTask\obj\Debug\netcoreapp2.2\E-VisionTask.pdb
+F:\E-VisionTask\E-VisionTask\obj\Debug\netcoreapp2.2\E-VisionTask.csprojAssemblyReference.cache

@@ -1,0 +1,27 @@
+<div style="text-align: center;"> Detailes</div>
+
+<div class="row" >
+    <div class="col-md-3" style="margin: 20px; margin-left: 40px;" >
+        <div class="card" style="width:400px"  >
+            <div class="card-body">
+                <h4 class="card-title"> {{name}}</h4>
+                <h4 class="card-title"> Price ${{price}}</h4>
+                <div class="col-lg-12 col-md-6">
+                    <button  class="btn btn-primary">
+                        <a [href]="'/detailes/' + id"  class="btn btn-Info">
+                            <i class="flaticon-user"></i>detailes
+                        </a>
+                    </button>
+                    <!--<button (click)="deletProduct(id)" class="btn btn-Access"><i class="flaticon-user"></i>Delete
+                        <span></span>
+                    </button>-->
+                    <button  class="btn btn-primary" >
+                        <a [href]="'/edit/' + id"  class="btn btn-Info">
+                            <i class="flaticon-user"></i>   Edit
+                        </a>
+                    </button>
+                </div>            
+            </div>
+        </div>
+    </div>
+  </div>
